@@ -90,7 +90,7 @@ describe("Tree", () => {
         });
     });
 
-    describe.skip("height", () => {
+    describe("height", () => {
         it("will return 0 for an empty tree", () => {
             expect(tree.height()).toEqual(0);
         });
