@@ -23,6 +23,7 @@ describe("Tree", () => {
     });
 
     it("can find and add values", () => {
+        console.log(treeWithNodes);
         tree.add(5, "Peter");
         expect(tree.find(5)).toEqual("Peter");
 
